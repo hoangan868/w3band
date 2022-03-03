@@ -1,0 +1,35 @@
+position bam dinh co dinh o phia tren
+    fixed
+    top: 0; //luon luon de top
+    left: 0; mac dinh
+    muon cho header bam vao ben phai thi
+    right: 0;
+
+
+slide
+    chu hien thi tren anh:
+        position: reative
+        chu de len anh
+        nguyen tac: hien thi dung ty lệ của ảnh
+        chieu cao co kich thuoc bang 50% chieu rong cua no:
+            su dung bg-img thay cho img
+        b1: xac dinh kich thuoc chieu ngang va chieu cao
+        b2: chen anh vao
+        b3: chử trên ảnh
+            khi them content vao thì bg-img sẻ không đảm bảo chiều cao co kích thước bằng 50% rộng của nó?
+                => thêm thuộc tính position asulute vào thằng con và reatile vào thằng cha
+                ==> lớp con sẻ được nâng lên 1 bậc hơn lớp cha
+            can giữa chữ
+                bằng position:
+
+content
+  nếu dùng float
+    tất cả thẻ con dùng float thì thẻ cha sẽ bị co lại (th3 cha ko ôm được thẻ con)
+        ->   thêm overlow : hidden vao thẻ cha 
+        -> dùng clear float 
+            dat div co class clear vao cuoi trong the cha    
+1 thẻ khi đang inline mà thêm float vào thì sẻ có tính chất là block
+    chỉ xử dụng margin số âm khi có float
+    sdasd
+    sadasd
+    sadas
